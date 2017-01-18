@@ -1,0 +1,21 @@
+---
+session:
+  debug:
+    addr: [172.100.101.150, 4700]
+    timeout: 2000
+
+  qa:
+    addr: [172.100.101.172, 4700]
+    timeout: 2000
+
+  sandbox:
+    addr: [192.168.2.151, 4700]
+    timeout: 2000
+
+  product:
+    - addr: [192.168.30.4, 4700]
+      timeout: 2000
+
+    - addr: [192.168.30.5, 4700]
+      timeout: 2000
+...
